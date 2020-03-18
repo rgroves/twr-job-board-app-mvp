@@ -1,0 +1,23 @@
+These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
+
+0:03:10
+
+- I need to familiarize myself with Material UI
+
+  - The tutorial uses @material-ui/core@next. I wasn't sure what the @ signs in
+    the pacakge name were for.
+
+    - The leading @ signifies a scope (e.g. @material-ui/). Scopes are a way of
+      grouping related packages together, and also affect a few things about the
+      way npm treats the package.
+
+      see: https://docs.npmjs.com/using-npm/scope.html
+
+    - The npm page states "Please note that @next will only point to 
+      pre-releases; to get the latest stable releaseuse @latest instead."
+
+    - "next" is just a tag. On the npm registry page for the package, in the
+      versions tab you can see the tags that are set to "next" and "latest" 
+      for that package.
+      
+      see: https://stackoverflow.com/questions/40621566/what-package-version-does-next-specify-for-npm/40643555
