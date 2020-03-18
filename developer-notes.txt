@@ -22,3 +22,10 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
     that package.
       
       see: https://stackoverflow.com/questions/40621566/what-package-version-does-next-specify-for-npm/40643555
+
+0:04:55
+
+- Regarding app design:
+  - Want App.js just to hold state, so making separate components: 
+    - Jobs.js will hold component tree and render styling
+    - Job.js will hold application state, use state, and call hooks
