@@ -48,3 +48,11 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
   see: https://www.npmjs.com/package/cron
 
 - USEFUL: https://crontab.guru/
+
+0:25:50
+
+- TODO: Clearly there is some error handling needed in fetch-github.js
+  - see video at time code noted above.
+
+- I found the onPage initialization to 0 to cause duplicates, needs to be onPage = 1
+  - I tweeted about that here: https://twitter.com/RobertGroves/status/1240473480971407365
