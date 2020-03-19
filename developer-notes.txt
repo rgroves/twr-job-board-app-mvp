@@ -124,3 +124,8 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 1:03:37
 
 - The tutorial did not show that most of the default App CSS was ripped out.
+
+1:05:45
+
+- Matched up all stye attribute settings for .job as shown in video at this
+  timecode.
