@@ -142,3 +142,8 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
   the disabled check to:
 
     disabled={activeStep === numPages - 1}
+
+1:17:22
+
+- TODO: Come back and clean up all the hardcoded magic number (50) references.
+        Could then easily adjust jobs per page if desired.
