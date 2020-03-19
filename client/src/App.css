@@ -1,9 +1,14 @@
+body {
+  margin: 20px 40px;
+}
+
 .job {
   width: 80%;
   display: flex;
-  justify-content: space-around;
-  margin: 10px auto;
-  padding: 10px 0px;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 10px;
+  align-items: center;
 }
 
 @keyframes App-logo-spin {
