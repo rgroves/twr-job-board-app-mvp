@@ -56,3 +56,14 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 
 - I found the onPage initialization to 0 to cause duplicates, needs to be onPage = 1
   - I tweeted about that here: https://twitter.com/RobertGroves/status/1240473480971407365
+
+0:28:39
+
+- TODO: Explore Redis. I know Redis is an in-memory key-value data store, but
+  have never used it.
+
+  - For installing Redis on WSL Ubuntu 18.04 I used:
+    https://tecadmin.net/install-redis-ubuntu/
+
+    - To start the server under WSL I had to use: sudo service redis-server start
+      see: https://stackoverflow.com/questions/52197246/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate
