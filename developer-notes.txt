@@ -67,3 +67,12 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 
     - To start the server under WSL I had to use: sudo service redis-server start
       see: https://stackoverflow.com/questions/52197246/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate
+
+0:38:45
+
+- Noticed that when fetch-github.js is run the process does not end.
+
+  - After some experimenting, I found this is due to the redis client still
+    being connected.
+
+    - Must explicitly close the redis client connection with: client.quit()
