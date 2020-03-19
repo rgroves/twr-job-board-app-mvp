@@ -29,3 +29,15 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
   - Want App.js just to hold state, so making separate components: 
     - Jobs.js will hold component tree and render styling
     - Job.js will hold application state, use state, and call hooks
+
+0:09:58
+
+- My styling of the job list was different than in the tutorial.
+
+  - There seemed to be a box shadow around the entries in the tutorial—
+    I'm chalking that up to a difference in the Typography library (?)
+
+  - The title and company were right up against one another (e.g. "SWE 1Google")
+
+  - I added span tags around the title and company which got my list to look
+    similar to the tutorial's list.
