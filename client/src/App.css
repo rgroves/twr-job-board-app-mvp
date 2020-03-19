@@ -11,6 +11,11 @@ body {
   align-items: center;
 }
 
+.job:hover {
+  cursor: pointer;
+  color: #666666;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
