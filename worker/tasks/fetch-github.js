@@ -23,6 +23,3 @@ async function fetchGithub() {
 }
 
 module.exports = fetchGithub;
-
-//for testing from cli
-fetchGithub();
