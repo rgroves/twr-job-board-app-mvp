@@ -11,7 +11,7 @@ export default function Jobs({jobs}) {
       </Typography>
       {
         jobs.map(
-          job => <Job job={job} />
+          (job, i) => <Job key={i} job={job} />
         )
       }
     </div>

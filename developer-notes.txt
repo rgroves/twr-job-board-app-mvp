@@ -96,3 +96,13 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 0:55:05
 
 - TODO: Need to familiarize myself with React.useEffect and React.useState.
+
+1:01:38
+
+- The tutorial did not show the adding of the key in the Jobs component.
+
+  - It shows the index of the array being used as the key, which is not a best
+    practice. Would probably be better to use the id values associated with the
+    job postings coming from github. If other sources of data are added a
+    different strategy would be needed.
+    see: https://reactjs.org/docs/lists-and-keys.html
