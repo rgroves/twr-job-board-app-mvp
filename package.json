@@ -1,0 +1,23 @@
+{
+  "name": "twr-job-board-app-mvp",
+  "version": "1.0.0",
+  "description": "Tutorial Walkthorugh Repo: Plan, Code, and Deploy a Startup in 2 Hours [Full Stack JavaScript Tutorial] — https://youtu.be/lauywdXKEXI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgroves/twr-job-board-app-mvp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgroves/twr-job-board-app-mvp/issues"
+  },
+  "homepage": "https://github.com/rgroves/twr-job-board-app-mvp#readme",
+  "dependencies": {
+    "cron": "^1.8.2"
+  }
+}
