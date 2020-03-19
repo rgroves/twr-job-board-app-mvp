@@ -6,8 +6,8 @@ export default function Job({job}) {
   return (
     <Paper className={'job'}>
       <div>
-        <Typography>{job.title}</Typography>
-        <Typography>{job.company}</Typography>
+        <Typography variant="h6">{job.title}</Typography>
+        <Typography variant="h5">{job.company}</Typography>
         <Typography>{job.location}</Typography>
       </div>
       <div>
