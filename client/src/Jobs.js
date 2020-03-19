@@ -6,7 +6,7 @@ import Job from './Job';
 export default function Jobs({jobs}) {
   return (
     <div className="jobs">
-      <Typography variant="h1">
+      <Typography variant="h4" component="h1">
         Entry Level Software Jobs
       </Typography>
       {
