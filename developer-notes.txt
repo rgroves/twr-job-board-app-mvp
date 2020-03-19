@@ -120,3 +120,7 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
   styles. This is just a side note regarding something I saw when looking at the
   Paper component API: https://material-ui.com/api/paper/
   see: https://material-ui.com/guides/minimizing-bundle-size/
+
+1:03:37
+
+- The tutorial did not show that most of the default App CSS was ripped out.
