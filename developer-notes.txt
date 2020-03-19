@@ -76,3 +76,19 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
     being connected.
 
     - Must explicitly close the redis client connection with: client.quit()
+
+0:48:34
+
+- My test run of the api server was getting an error that port 3001 was in use.
+
+  - I used this command in an elevated PowerShell console to see what process
+    was using port 3001:
+
+    netstat -bano | select-string '3001'
+
+    That only gave me the PID though, I had to use this to find the process name:
+
+    tasklist /FI "PID eq 4400" /FO TABLE
+
+    And the culprit was Visual Studio Code using the Remote WSL extension (I am
+    using WSL to host my Ubuntu instance where I'm codig this).
