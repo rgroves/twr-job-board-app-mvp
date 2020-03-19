@@ -3,13 +3,17 @@ import Typography from '@material-ui/core/Typography';
 
 import Job from './Job';
 
-export default function Jobs() {
+export default function Jobs({jobs}) {
   return (
     <div className="jobs">
       <Typography variant="h1">
         Entry Level Software Jobs
       </Typography>
-      <Job job={{title: 'SWE 1', company: 'Google'}}/>
+      {
+        jobs.map(
+          job => <Job job={job} />
+        )
+      }
     </div>
   );
 }
