@@ -106,3 +106,17 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
     job postings coming from github. If other sources of data are added a
     different strategy would be needed.
     see: https://reactjs.org/docs/lists-and-keys.html
+
+1:02:12
+
+- The tutorial did not show adding the Typography tags around job.title and
+  job.company. It also did not show adding the usage of @material-ui/core/Paper
+  and changing the div that wraps the job info to be a Paper component.
+
+- TODO: Reveiw Material-UI's Paper component:
+  https://material-ui.com/components/paper/
+
+- TODO: Need to understand "tree-shaking" and the difference in import statement
+  styles. This is just a side note regarding something I saw when looking at the
+  Paper component API: https://material-ui.com/api/paper/
+  see: https://material-ui.com/guides/minimizing-bundle-size/
