@@ -129,3 +129,16 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 
 - Matched up all stye attribute settings for .job as shown in video at this
   timecode.
+
+1:15:08
+
+- The stepping issue hit at this time code can be resolved by using:
+
+    <div>
+      Page {activeStep + 1} of {numPages}
+    </div>
+
+  And then in the nextButton configuration of the MobileStepper component change
+  the disabled check to:
+
+    disabled={activeStep === numPages - 1}
