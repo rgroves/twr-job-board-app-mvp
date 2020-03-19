@@ -26,8 +26,26 @@ async function fetchGithub() {
 
   console.log('fetch-github: got', allJobs.length, 'jobs total');
 
+  // filter algo
+  const jrJobs = allJobs.filter(job => {
+    const jobTitle = job.title.toLowerCase();
+
+    if (
+         jobTitle.includes('senior') ||
+         jobTitle.includes('manager') ||
+         jobTitle.includes('sr.') ||
+         jobTitle.includes('architect')
+    ) {
+      return false;
+    }
+
+    return true;
+  });
+
+  console.log('fetch-github: filtered down to', jrJobs.length);
+
   // set in redis
-  const success = await setAsync('github', JSON.stringify(allJobs));
+  const success = await setAsync('github', JSON.stringify(jrJobs));
   console.log({success});
   client.quit();
 
