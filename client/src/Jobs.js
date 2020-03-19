@@ -9,7 +9,7 @@ export default function Jobs() {
       <Typography variant="h1">
         Entry Level Software Jobs
       </Typography>
-      <Job />
+      <Job job={{title: 'SWE 1', company: 'Google'}}/>
     </div>
   );
 }
