@@ -41,3 +41,10 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 
   - I added span tags around the title and company which got my list to look
     similar to the tutorial's list.
+
+0:13:30
+
+- TODO: Explore capabilities of cron package.
+  see: https://www.npmjs.com/package/cron
+
+- USEFUL: https://crontab.guru/
