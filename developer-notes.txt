@@ -92,3 +92,7 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 
     And the culprit was Visual Studio Code using the Remote WSL extension (I am
     using WSL to host my Ubuntu instance where I'm codig this).
+
+0:55:05
+
+- TODO: Need to familiarize myself with React.useEffect and React.useState.
