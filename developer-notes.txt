@@ -152,3 +152,7 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 
 - The guard code as written doesn't protect against an empty object, it will 
   protect against a job with an empty title.
+
+1:26:24
+
+- I wonder if the call order between handleClickOpen and selectJob matters?
