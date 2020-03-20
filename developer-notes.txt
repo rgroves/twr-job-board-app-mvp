@@ -147,3 +147,8 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 
 - TODO: Come back and clean up all the hardcoded magic number (50) references.
         Could then easily adjust jobs per page if desired.
+
+1:25:45
+
+- The guard code as written doesn't protect against an empty object, it will 
+  protect against a job with an empty title.
