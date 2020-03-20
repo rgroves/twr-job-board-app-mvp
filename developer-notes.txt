@@ -156,3 +156,8 @@ These are my notes as I walk through this tutorial: https://youtu.be/lauywdXKEXI
 1:26:24
 
 - I wonder if the call order between handleClickOpen and selectJob matters?
+
+*OTHER NOTES*
+
+- I noticed if the API server is disabled, the slider functionality is wonky.
+  This is likely due to the app not handling zero jobs returned correctly.
